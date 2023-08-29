@@ -65,6 +65,7 @@ header{
     display: flex;
     padding-bottom: 13px;
     height: 28px;
+
 }
 /*  BASE DO MENU  */
 
@@ -93,12 +94,11 @@ header{
 
 /*  ANIMAÇÃO DA FLECHA  */
 .Arrow_Header:hover {
-    transition: .3s;
     transform: rotate(180deg);
 }
 
 .Header_Links:hover .Arrow_Header{
-    transition: .3s;
+    transition: .2s;
     transform: rotate(180deg);
 }
 /*  ANIMAÇÃO DA FLECHA  */
@@ -106,7 +106,7 @@ header{
 
 /*  EFEITO BLUR  */
 nav:hover .Blur_Filter:not(:hover){
-    opacity: .5;
+    opacity: .4;
     transition: .6s;
 }
 /*  EFEITO BLUR  */

@@ -1,6 +1,129 @@
 @charset "UTF-8";
 
-#First_Section{
-    width: 1000px;
-    height: 1000px;
+/*  VARIÁVEIS  */
+:root{
+    --cor-purple: #8211D1;
+    --cor-purple-login: #9A38DA;
+    --font-menu: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+/*  VARIÁVEIS  */
+
+/*  PRIMEIRA SECTION  */
+#First_Section{
+    width: 99vw;
+    height: 100vh;
+    background-image: url('../img/background_first_section.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    Font-Family: var(--font-menu);
+    font-size: 2em;
+}
+
+#First_Section{
+    display: grid;
+    grid-template-columns: 1fr 8fr 3fr 8fr 1fr;
+    align-items: center;
+}
+
+#First_Txt{
+    grid-column-start: 2;
+}
+
+#First_Container{
+    grid-column-start: 4;
+    justify-self: flex-end;
+    background-color: white;
+    color: black;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.308);
+    width: 300px;
+    height: 250px;
+    display: grid;
+    justify-items: flex-start;
+    align-items: center;
+}
+
+#First_p{
+    font-size: 0.8em;
+    margin: 0px;
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+
+#Fisrt_Input{
+    width: 285px;
+    height: 30px;
+    border: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+#First_Button{
+    width: 300px;
+    height: 40px;
+    border: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(225, 225, 225);
+    border-radius: 20px;
+    justify-self: center;
+    color:  rgb(180, 180, 180);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#First_Seta{
+    width: 24px;
+    height: 24px;
+    fill: rgb(180, 180, 180);
+}
+
+/*  PRIMEIRA SECTION  */
+
+
+/*  SEGUNDA SECTION  */
+
+#Second_Section{
+    height: 100vh;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 5fr 1fr 5fr;
+    align-items: center;
+    justify-items: center;
+}
+
+#A1{
+    font-size: 1.7em;
+    font-family: var(--font-menu);
+    color: var(--cor-purple);
+    padding-left: 80px;
+}
+
+#Second_pone{
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#Second_ptwo{
+    font-size: 0.7em;
+}
+
+#Second_Section > img{
+    width: 43vw;
+    grid-column-start: 3;
+    justify-self: center;
+    padding-right: 5vw;
+}
+
+#Second_Seta{
+    fill: var(--cor-purple);
+    width: 20px;
+    height: 20px;
+}
+
+/*  SEGUNDA SECTION  */ 
