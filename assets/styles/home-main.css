@@ -87,7 +87,7 @@
 
 /*  SEGUNDA SECTION  */
 
-#Second_Section{
+.Second_Section{
     height: 100vh;
     background-color: white;
     display: grid;
@@ -96,34 +96,48 @@
     justify-items: center;
 }
 
-#A1{
+.A1{
     font-size: 1.7em;
     font-family: var(--font-menu);
     color: var(--cor-purple);
     padding-left: 80px;
 }
 
-#Second_pone{
+.Second_pone{
     color: black;
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight: bold;
 }
 
-#Second_ptwo{
+.Second_ptwo{
     font-size: 0.7em;
 }
 
-#Second_Section > img{
+.Second_Section > img{
     width: 43vw;
     grid-column-start: 3;
     justify-self: center;
     padding-right: 5vw;
 }
 
-#Second_Seta{
+.Second_Seta{
     fill: var(--cor-purple);
     width: 20px;
     height: 20px;
 }
 
 /*  SEGUNDA SECTION  */ 
+
+
+/*  TERCEIRA SECTION  */
+
+#Third_Section{
+    height: 100vh;
+    background-color: #F5F5F5;
+    display: grid;
+    grid-template-columns: 5fr 1fr 5fr;
+    align-items: center;
+    justify-items: center;
+}
+
+/*  TERCEIRA SECTION  */
