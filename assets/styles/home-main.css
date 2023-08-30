@@ -91,13 +91,13 @@
     height: 100vh;
     background-color: white;
     display: grid;
-    grid-template-columns: 5fr 1fr 5fr;
+    grid-template-columns: 6fr 1fr 6fr;
     align-items: center;
     justify-items: center;
 }
 
 .A1{
-    font-size: 1.7em;
+    font-size: 1.9em;
     font-family: var(--font-menu);
     color: var(--cor-purple);
     padding-left: 80px;
@@ -107,6 +107,7 @@
     color: black;
     font-size: 1.4em;
     font-weight: bold;
+    margin-top: -35px;
 }
 
 .Second_ptwo{
@@ -141,3 +142,12 @@
 }
 
 /*  TERCEIRA SECTION  */
+
+
+/*  QUARTA SECTION  */
+
+#Fourth_Section > img{
+    width: 18vw;
+}
+
+/*  QUARTA SECTION  */
