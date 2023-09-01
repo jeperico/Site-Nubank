@@ -81,7 +81,7 @@
     justify-content: space-between;
 }
 
-#First_Seta{
+#First_Arrow{
     width: 24px;
     height: 24px;
     fill: rgb(180, 180, 180);
@@ -126,7 +126,7 @@
     padding-right: 5vw;
 }
 
-.Second_Seta{
+.Second_Arrow{
     fill: var(--cor-purple);
     width: 20px;
     height: 20px;
@@ -171,7 +171,7 @@
     align-items: center;
 }
 
-#Fiveth_Seta{
+#Fiveth_Arrow{
     fill: white;
     width: 20px;
     height: 20px;
@@ -192,3 +192,31 @@
 }
 
 /*  QUINTA SECTION  */
+
+
+/*  SEXTA SECTION  */
+
+#Sixth_Section{
+    height: 95vh;
+    background-image: url('../img/background_sixth_section.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    font-family: var(--font-menu);
+}
+
+#Sixth_Section p{
+    font-size: 2em;
+}
+
+#Sixth_Section a{
+    color: white;
+}
+
+#Arrow_Rotate{
+    fill: white;
+    transform: rotate(90);
+}
+
+/*  SEXTA SECTION  */
