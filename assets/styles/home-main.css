@@ -4,6 +4,7 @@
 :root{
     --cor-purple: #8211D1;
     --cor-purple-login: #9A38DA;
+    --cor-purple-dark: #4C0677;
     --font-menu: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 /*  VARIÁVEIS  */
@@ -53,11 +54,15 @@
     align-self: flex-start;
 }
 
-#Fisrt_Input{
+#First_Input{
     width: 285px;
     height: 30px;
     border: 0px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.275);
+}
+
+#First_Input:hover{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.9);
 }
 
 #First_Button{
@@ -151,3 +156,39 @@
 }
 
 /*  QUARTA SECTION  */
+
+
+/*  QUINTA SECTION  */
+
+#Fiveth_Section{
+    background-color: var(--cor-purple-dark);
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 2fr 1fr;
+    color: white;
+    font-size: 1.9em;
+    font-family: var(--font-menu);
+    height: 95vh;
+    align-items: center;
+}
+
+#Fiveth_Seta{
+    fill: white;
+    width: 20px;
+    height: 20px;
+}
+
+#A2{
+    grid-column-start: 2;
+}
+
+#Fiveth_Section > img{
+    grid-column-start: 4;
+    width: 32vw;
+}
+
+#ptwo{
+    font-size: 1.4em;
+    margin-top: -35px;
+}
+
+/*  QUINTA SECTION  */
