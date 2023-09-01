@@ -204,19 +204,29 @@
     background-position: center center;
     color: white;
     font-family: var(--font-menu);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #Sixth_Section p{
-    font-size: 2em;
+    font-size: 3em;
 }
 
 #Sixth_Section a{
     color: white;
+    text-decoration: none;
 }
 
 #Arrow_Rotate{
     fill: white;
     transform: rotate(90);
+}
+
+#A3{
+    max-width: 29vw;
+    margin-left: -26vw;
 }
 
 /*  SEXTA SECTION  */
